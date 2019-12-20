@@ -23,8 +23,8 @@ header {
   padding: 2em;
   text-align: center;
   background-size: cover ;
+  background-position: fixed;
   background-image: url('img/bg.jpg');
-  background-position: center;
   color: white;
   text-transform: uppercase;
 }
@@ -44,17 +44,39 @@ h1 {
   margin: 1em 0;
 }
 
+h3  {
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 main {
   max-width: 1140px;
 }
 
+main section:not(:last-child)    {
+    border-bottom: 1px solid #cccccc;
+}
+
 .course {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .course .title {
+    flex: 0 0 33.3%;
+    max-width: 33%;
 }
 
 .course .descrition {
+    flex: 0 0 66.6%;
+    max-width: 66.6%;
+}
+
+.course .descrition p {
+    padding-left: 1em;
 }
 
 .school span {
