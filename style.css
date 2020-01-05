@@ -26,7 +26,6 @@ header {
   background-position: fixed;
   background-image: url('img/bg.jpg');
   color: white;
-  text-transform: uppercase;
 }
 
 header section {
@@ -44,6 +43,9 @@ h1 {
   margin: 1em 0;
 }
 
+h2  {
+    font-size: 20px;
+}
 h3  {
     font-weight: bolder;
     font-size: 20px;
@@ -68,6 +70,7 @@ main section:not(:last-child)    {
 .course .title {
     flex: 0 0 33.3%;
     max-width: 33%;
+    color: #509e98;
 }
 
 .course .descrition {
@@ -79,10 +82,49 @@ main section:not(:last-child)    {
     padding-left: 1em;
 }
 
-.school span {
-  color: #A7B8BF;
+.school span    {
+    color: #509e98;
 }
 
-footer {
- padding: 1em;
+.job span   {
+    color: #509e98;
 }
+footer   {
+    padding: 1em;
+    background: #A7B8BF;
+    color: white;
+    text-align: right;
+}
+
+.skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.skills .column {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.list > li   {
+    padding-left: 1.5em;
+}
+
+ul.list > li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #509e98;
+}🇬🇧
+
