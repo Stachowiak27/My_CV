@@ -1,17 +1,17 @@
 # CV base
 
-Podstawa projektu do pobrania. Pełen tutorial z opisem na blogu Fly Nerd: CV w HTML / CSS
+Projekt polega na utworzeniu szablonu CV ukierunkowanego na znalezienie pracy jako Junior Developer.
 
 ### Zakres
 
-Celem projektu jest wykorzystanie stworzenie strony www własnego CV za użyciem HTML i CSS.
+Celem projektu jest wykorzystanie stworzenie strony www własnego CV z użyciem HTML i CSS.
 
-### Z tym tutorialem:
-- wykorzystasz znaczniki HTML5
-- ostylujesz stronę za pomocą CSS
-- stworzysz prosty, czytelny i estetyczny layout
-- wykorzystasz flexbox do tworzenia układu strony
-- przystosujesz stronę pod urządzenia mobilne (RWD)
+### Użyte technologie:
+- wykorzystałem znaczniki HTML5
+- ostylułowem stronę za pomocą CSS
+- stworzyłęm prosty, czytelny i estetyczny layout
+- wykorzystałem flexbox do tworzenia układu strony
+- przystosowałem stronę pod urządzenia mobilne (RWD)
+- użyłem Font Avesome 5 dla mediów społecznościowych
 
-### Wymagania
-Do wykonania zadań konieczna jest podstawowa znajomość HTML i CSS!
+ 
